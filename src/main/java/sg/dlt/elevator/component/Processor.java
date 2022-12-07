@@ -4,6 +4,7 @@ import main.java.sg.dlt.elevator.operations.processrequestqueue.PrioritisedQueue
 import main.java.sg.dlt.elevator.request.InternalRequest;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Scanner;
 
@@ -40,4 +41,6 @@ public class Processor {
         }
         return prioritisedQueue;
     }
+
+
 }
